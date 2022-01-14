@@ -3,20 +3,20 @@
 body {
   margin: 0;
   text-align: center;
-  background-color:  #FDF2EF;
+  background-color:  #F9F4F2;
 }
 
 @media (min-width: 1080px) {
   body {
    width: 1080px;
    text-align: center;
-   background-color:  #FDF2EF;
+   background-color:  #F9F4F2;
    margin: auto;
   }
 }
 
 hr {
-  background-color: #FDF2EF;
+  background-color: #F9F4F2;
   border-style: none;
   border-top-style: dotted;
   border-color: #D65A31;
@@ -125,7 +125,7 @@ a:hover {
 /**********************Class Selection**********************/
 
 .container-fluid {
-  padding: 0 18%;
+  padding: 20px 0;
 }
 
 .navbar {
@@ -254,10 +254,35 @@ a:hover {
     border-radius: 50%;
     margin: 5%;
   }
+
+  .card {
+    position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      margin: 50px auto;
+  }
+
+  .project-collapes {
+    line-height: 3;
+    font-size: 1.5rem;
+  }
+
+  .project-btn {
+    font-size: 2rem;
+    width: 250px;
+    height: 100px;
+    padding: 25px;
+  }
 }
 
 .profile-text {
-  width: 100%;
+  width: 40%;
   margin: 0 auto 0 auto;
 }
 
@@ -276,10 +301,12 @@ a:hover {
   margin: 0 10% 0 10%;
 }
 
-.project-img{
-  width: 80%;
-  margin: 50px auto 20px auto;
-  border-radius: 50%;
+.my-project {
+  margin-bottom: 50px;
+}
+
+.card-text{
+  text-align: left;
 }
 
 .carousel-control-prev-icon {
